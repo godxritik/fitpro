@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar'
 import Accordion from '../Accordion/Accordion'
 import Footer from '../Footer/Footer'
 import Pricing from '../Pricing/Pricing'
+import AppDownload from '../AppDownload/AppDownload'
 
 function Hero() {
   return (
@@ -34,7 +35,7 @@ function Hero() {
 
         <a
           href="#"
-          className="mt-8 inline-block rounded bg-black border-white border px-12 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-black focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-8 inline-block rounded bg-black border-white border px-12 py-3 text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none focus:ring focus:ring-yellow-400 "
         >
           Get Started Today
         </a>
@@ -46,6 +47,7 @@ function Hero() {
       <Cards/>
       <Pricing/>
       <Accordion/>
+      <AppDownload/>
       <Footer/>
 
     </div>

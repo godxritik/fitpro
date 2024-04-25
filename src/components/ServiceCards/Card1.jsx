@@ -3,7 +3,7 @@ import bodyBuilding from "../../assets/weightLifting.jpg"
 
 function Card1() {
   return (
-    <div>
+    <div className=''>
       
       <article className="overflow-hidden w-[350px]  my-4 mx-4 rounded-lg shadow transition hover:shadow-xl">
   <img
@@ -12,10 +12,10 @@ function Card1() {
     className="h-56 w-full object-cover"
   />
 
-  <div className="bg-white p-4 sm:p-6">
+  <div className="bg-white dark:bg-gray-900 dark:text-white p-4 sm:p-6">
     
     <a href="#">
-      <h3 className="mt-0.5 text-lg text-gray-900">Bodybuilding Excellence : Sculpt Your Strength</h3>
+      <h3 className="mt-0.5 text-lg text-gray-900 dark:text-white">Bodybuilding Excellence : Sculpt Your Strength</h3>
     </a>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">

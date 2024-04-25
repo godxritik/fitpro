@@ -2,13 +2,13 @@ import React from "react";
 
 function Accordion() {
   return (
-    <div className=" px-auto py-4 border-t-2 border-gray-300">
-      <h3 className="text-center text-4xl font-bold py-6">
+    <div className=" px-auto py-4 border-t-2 dark:border-t-0 border-gray-300 dark:bg-gray-800">
+      <h3 className="text-center text-4xl font-bold py-6 dark:text-white">
         Frequently Asked Questions
       </h3>
 
-      <div className="space-y-4 my-2 first-letter:">
-        <details className="group rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden  ">
+      <div className="space-y-4 my-2  first-letter:">
+        <details className="group rounded-lg bg-gray-300 dark:bg-gray-500 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden  ">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium text-xl">
               How often should I work out?
@@ -57,7 +57,7 @@ function Accordion() {
       </div>
 
       <div className="space-y-4 my-2 transition-all first-letter:">
-        <details className="group rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details className="group rounded-lg dark:bg-gray-500 bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium text-xl">
               What should I eat before and after my workouts?
@@ -107,7 +107,7 @@ function Accordion() {
       </div>
 
       <div className="space-y-4 my-2 transition-all first-letter:">
-        <details className="group rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details className="group rounded-lg dark:bg-gray-500 bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium text-xl">
               What's the best way to prevent injuries during workouts?
@@ -156,7 +156,7 @@ function Accordion() {
       </div>
 
       <div className="space-y-4 my-2 transition-all first-letter:">
-        <details className="group rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details className="group dark:bg-gray-500 rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium text-xl">
               How long will it take to see results from my workouts?
@@ -206,7 +206,7 @@ function Accordion() {
       </div>
 
       <div className="space-y-4 my-2 transition-all first-letter:">
-        <details className="group rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
+        <details className="group dark:bg-gray-500 rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
             <h2 className="font-medium text-xl">
               Can I still build muscle and strength as I age?

@@ -12,10 +12,10 @@ function Card3() {
     className="h-56 w-full object-cover"
   />
 
-  <div className="bg-white p-4 sm:p-6">
+  <div className="bg-white p-4 sm:p-6 dark:bg-gray-900">
     
     <a href="#">
-      <h3 className="mt-0.5 text-lg text-gray-900">How to position your furniture for positivity</h3>
+      <h3 className="mt-0.5 text-lg text-gray-900 dark:text-white">Mixed Martial Arts (MMA)</h3>
     </a>
 
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">

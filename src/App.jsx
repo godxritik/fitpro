@@ -11,7 +11,7 @@ import BMICalculator from './components/BmiCalculator/BmiCalculator'
 import AppDownload from './components/AppDownload/AppDownload'
 import Clock from './components/Clock/Clock'
 import About from './components/About/About'
-import Trainer from "./components/Trainers/Trainer";
+
 
 
 
@@ -25,18 +25,15 @@ function App(){
           
           <Route path="/about" element={<About/>} />
           <Route path="/news" element={<News/>} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
       </BrowserRouter>
 
            
-          <Dashboard/>
+          
       
-    
-          <About/>
-      
-
-      
-          <Trainer />
+   
 
     </div>
   )
