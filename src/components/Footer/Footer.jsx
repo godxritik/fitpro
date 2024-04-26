@@ -181,6 +181,7 @@ function Footer() {
       </div>
   
       <p className="text-xs text-gray-500">&copy; 2024. Fitpro. All rights reserved.</p>
+    <p className='text-white'>Design and developed by Ritik gaur</p>
     </div>
   </footer>
   )

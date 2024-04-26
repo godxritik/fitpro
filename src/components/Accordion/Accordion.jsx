@@ -10,7 +10,7 @@ function Accordion() {
       <div className="space-y-4 my-2  first-letter:">
         <details className="group rounded-lg bg-gray-300 dark:bg-gray-500 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden  ">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium text-xl">
+            <h2 className="font-medium text-xl dark:text-white">
               How often should I work out?
             </h2>
 
@@ -47,7 +47,7 @@ function Accordion() {
             </span>
           </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
             The frequency of your workouts depends on your fitness goals and
             current fitness level. Generally, aim for at least three to four
             sessions per week, allowing for rest days to prevent burnout and
@@ -56,10 +56,10 @@ function Accordion() {
         </details>
       </div>
 
-      <div className="space-y-4 my-2 transition-all first-letter:">
+      <div className="space-y-4 my-2  first-letter:">
         <details className="group rounded-lg dark:bg-gray-500 bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium text-xl">
+            <h2 className="font-medium text-xl dark:text-white">
               What should I eat before and after my workouts?
             </h2>
 
@@ -96,7 +96,7 @@ function Accordion() {
             </span>
           </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
             Before your workout, opt for a balanced meal containing
             carbohydrates and protein about 1-2 hours beforehand to fuel your
             session. Afterward, focus on consuming a mix of protein and
@@ -106,10 +106,10 @@ function Accordion() {
         </details>
       </div>
 
-      <div className="space-y-4 my-2 transition-all first-letter:">
+      <div className="space-y-4 my-2  first-letter:">
         <details className="group rounded-lg dark:bg-gray-500 bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium text-xl">
+            <h2 className="font-medium text-xl dark:text-white">
               What's the best way to prevent injuries during workouts?
             </h2>
 
@@ -146,7 +146,7 @@ function Accordion() {
             </span>
           </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
             Proper warm-up and stretching before exercising are essential to
             prepare your muscles and joints for movement, reducing the risk of
             injury. Additionally, prioritize proper form and technique during
@@ -155,10 +155,10 @@ function Accordion() {
         </details>
       </div>
 
-      <div className="space-y-4 my-2 transition-all first-letter:">
+      <div className="space-y-4 my-2  first-letter:">
         <details className="group dark:bg-gray-500 rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium text-xl">
+            <h2 className="font-medium text-xl dark:text-white">
               How long will it take to see results from my workouts?
             </h2>
 
@@ -195,7 +195,7 @@ function Accordion() {
             </span>
           </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
             Results vary based on individual factors such as genetics,
             consistency, diet, and the intensity of your workouts. Generally,
             noticeable changes may occur within a few weeks to a couple of
@@ -205,10 +205,10 @@ function Accordion() {
         </details>
       </div>
 
-      <div className="space-y-4 my-2 transition-all first-letter:">
+      <div className="space-y-4 my-2  first-letter:">
         <details className="group dark:bg-gray-500 rounded-lg bg-gray-300 mx-16  p-6 [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 className="font-medium text-xl">
+            <h2 className="font-medium text-xl dark:text-white">
               Can I still build muscle and strength as I age?
             </h2>
 
@@ -245,7 +245,7 @@ function Accordion() {
             </span>
           </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
+          <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
             Absolutely! While it may become slightly more challenging with age
             due to natural declines in muscle mass and hormone levels, regular
             strength training and proper nutrition can still yield significant
